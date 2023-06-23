@@ -40,7 +40,7 @@ export default function MessageForm() {
         name="message"
       />
       <input
-        className="mt-5 text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center bg-gray-600 hover:bg-gray-700 focus:ring-gray-800"
+        className="mt-5 cursor-pointer text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center bg-gray-600 hover:bg-gray-700 focus:ring-gray-800"
         type="submit"
         value="Send"
       />
