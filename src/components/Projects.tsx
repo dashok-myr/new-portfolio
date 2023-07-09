@@ -47,31 +47,31 @@ export default function Projects() {
   return (
     <div className="flex flex-col">
       <div className="text-5xl md:text-6xl pb-10 md:pb-16">Projects</div>
-      <div className="flex flex-col md:grid md:grid-cols-2 md:gap-10">
+      <div className="flex flex-col md:grid md:grid-cols-2 md:gap-20">
         {projects.map((project) => {
           return (
             <div key={project.name} className="flex flex-col">
               <div>
                 <Image src={project.image} alt="project" />
-                <div className="text-xl text-gray-300 pt-3">
+                <div className="text-xl text-gray-100 pt-3">
                   {project.name.toUpperCase()}
                 </div>
                 <div className="text-sm font-light text-gray-400">
-                  {project.technologies.toUpperCase()}
+                  {project.technologies}
                 </div>
               </div>
               <div className="flex justify-between mt-5">
                 <a
                   href={project.url}
                   target="_blank"
-                  className="underline text-md font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:text-green-300"
+                  className="text-md font-medium uppercase leading-normal text-green-300 transition duration-150 ease-in-out hover:text-white"
                 >
                   VIEW PROJECT
                 </a>
                 <a
                   target="_blank"
                   href={project.code}
-                  className="underline text-md font-medium uppercase leading-normal text-primary transition duration-150 ease-in-out hover:text-green-300 mb-10"
+                  className="text-md font-medium uppercase leading-normal text-green-300 transition duration-150 ease-in-out hover:text-white mb-10"
                 >
                   VIEW CODE
                 </a>
