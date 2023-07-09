@@ -1,5 +1,5 @@
 import Image from "next/image";
-import photo from "../icons/IMG_9620.png";
+import photo from "../icons/myPhoto.png";
 import NavBar from "@/components/NavBar";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";

@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import countries from "../icons/countries-project.png";
 import matreshka from "../icons/matreshka-project.png";
 import cocktail from "../icons/cocktail-project.png";
+import ticTacToe from "../icons/ticTacToe.png";
 
 interface IProject {
   image: string | StaticImageData;
@@ -31,6 +32,13 @@ const projects: IProject[] = [
     url: "https://cocktails-ten.vercel.app/",
     code: "https://github.com/dashok-myr/cocktails",
     name: "Cocktail recipe",
+    technologies: "CSS NextJS Tailwind",
+  },
+  {
+    image: ticTacToe,
+    url: "https://tic-tac-toe-dusky-eight.vercel.app/",
+    code: "https://github.com/dashok-myr/tic-tac-toe",
+    name: "Tic Tac Toe",
     technologies: "CSS NextJS Tailwind",
   },
 ];
