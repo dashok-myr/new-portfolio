@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import countries from "../icons/countries-project.png";
 import matreshka from "../icons/matreshka-project.png";
 import cocktail from "../icons/cocktail-project.png";
+import todoList from "../icons/todoList.png";
 import ticTacToe from "../icons/ticTacToe.png";
 
 interface IProject {
@@ -39,6 +40,13 @@ const projects: IProject[] = [
     url: "https://tic-tac-toe-dusky-eight.vercel.app/",
     code: "https://github.com/dashok-myr/tic-tac-toe",
     name: "Tic Tac Toe",
+    technologies: "CSS NextJS Tailwind",
+  },
+  {
+    image: todoList,
+    url: "https://todo-list-eta-seven-31.vercel.app/?vercelToolbarCode=M7jWuS37FSzsZCE",
+    code: "https://github.com/dashok-myr/todo/tree/main/src/app",
+    name: "Todo List",
     technologies: "CSS NextJS Tailwind",
   },
 ];
