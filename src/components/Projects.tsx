@@ -15,6 +15,20 @@ interface IProject {
 
 const projects: IProject[] = [
   {
+    image: ticTacToe,
+    url: "https://tic-tac-toe-dusky-eight.vercel.app/",
+    code: "https://github.com/dashok-myr/tic-tac-toe",
+    name: "Tic Tac Toe",
+    technologies: "CSS NextJS Tailwind",
+  },
+  {
+    image: cocktail,
+    url: "https://cocktails-ten.vercel.app/",
+    code: "https://github.com/dashok-myr/cocktails",
+    name: "Cocktail recipe",
+    technologies: "CSS NextJS Tailwind",
+  },
+  {
     image: matreshka,
     url: "https://matreshka-shop.vercel.app/",
     code: "https://github.com/dashok-myr/matreshka-shop",
@@ -26,20 +40,6 @@ const projects: IProject[] = [
     url: "https://countries-l2i3gsldg-dashok-myr.vercel.app/",
     code: "https://github.com/dashok-myr/countries",
     name: "Countries",
-    technologies: "CSS NextJS Tailwind",
-  },
-  {
-    image: cocktail,
-    url: "https://cocktails-ten.vercel.app/",
-    code: "https://github.com/dashok-myr/cocktails",
-    name: "Cocktail recipe",
-    technologies: "CSS NextJS Tailwind",
-  },
-  {
-    image: ticTacToe,
-    url: "https://tic-tac-toe-dusky-eight.vercel.app/",
-    code: "https://github.com/dashok-myr/tic-tac-toe",
-    name: "Tic Tac Toe",
     technologies: "CSS NextJS Tailwind",
   },
   {
