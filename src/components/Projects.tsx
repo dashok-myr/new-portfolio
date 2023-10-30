@@ -3,7 +3,9 @@ import countries from "../icons/countries-project.png";
 import matreshka from "../icons/matreshka-project.png";
 import cocktail from "../icons/cocktail-project.png";
 import todoList from "../icons/todoList.png";
-import ticTacToe from "../icons/ticTacToe.png";
+import ticTacToe from '../icons/ticTacToe.png'
+import linkInBio from '../icons/linkInBio.png'
+
 
 interface IProject {
   image: string | StaticImageData;
@@ -20,6 +22,13 @@ const projects: IProject[] = [
     code: "https://github.com/dashok-myr/tic-tac-toe",
     name: "Tic Tac Toe",
     technologies: "CSS NextJS Tailwind",
+  },
+  {
+    image: linkInBio,
+    url: "https://link-in-bio-lemon.vercel.app/",
+    code: "https://github.com/dashok-myr/Link-In-Bio",
+    name: "Link In Bio",
+    technologies: "React Firebase Tailwind",
   },
   {
     image: cocktail,
