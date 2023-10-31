@@ -3,9 +3,8 @@ import countries from "../icons/countries-project.png";
 import matreshka from "../icons/matreshka-project.png";
 import cocktail from "../icons/cocktail-project.png";
 import todoList from "../icons/todoList.png";
-import ticTacToe from '../icons/ticTacToe.png'
-import linkInBio from '../icons/linkInBio.png'
-
+import ticTacToe from "../icons/ticTacToe.png";
+import linkInBio from "../icons/linkInBio.png";
 
 interface IProject {
   image: string | StaticImageData;
