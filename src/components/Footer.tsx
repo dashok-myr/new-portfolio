@@ -3,12 +3,14 @@ import MessageForm from "@/components/MessageForm";
 
 export default function Footer() {
   return (
-    <div className="text-white bg-zinc-800">
+    <div className="text-white bg-black">
       <div className="flex flex-col md:flex w-[75%] m-auto py-16 md:py-24">
         <div className="flex flex-col basis-full">
           <div className="flex flex-col md:flex md:flex-row justify-between">
             <div className="flex flex-col h-72 w-72 md:w-96">
-              <div className="text-6xl font-semibold pb-10">Contact</div>
+              <div className="text-6xl text-lime-300 font-semibold pb-10">
+                Contact
+              </div>
               <div className="text-gray-400">
                 I would love to hear about your project nd how I could help.
                 Please fill in the form, and I&apos;ll get back to you as soon
