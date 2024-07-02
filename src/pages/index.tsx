@@ -38,7 +38,7 @@ export default function Home() {
         <NavBar />
         <div className="mt-40" />
         <div className="flex m-20">
-          <div className="flex w-full items-center justify-between">
+          <div className="flex flex-col md:flex-row w-full items-center justify-between">
             <div className="flex flex-col w-full">
               <div className="text-gray-300 !text-8xl md:text-8xl text-center md:text-start">
                 <WelcomeAnimation />

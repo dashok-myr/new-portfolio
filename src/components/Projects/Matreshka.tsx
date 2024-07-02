@@ -14,7 +14,7 @@ export default function Matreshka() {
           className="rounded-2xl mb-7"
         />
         <Link
-          href="https://cocktails-ten.vercel.app/"
+          href="https://matreshka-shop.vercel.app/"
           className="bg-white hover:bg-pink-300 text-xl font-bold py-3 px-8 rounded-full mb-5"
         >
           Let&apos;s shop
@@ -25,7 +25,7 @@ export default function Matreshka() {
         </div>
         <Link
           className="font-bold text-2xl mt-5 text-gray-400 hover:text-lime-200"
-          href="https://github.com/dashok-myr/cocktails"
+          href="https://github.com/dashok-myr/matreshka-shop"
         >
           View Code
         </Link>

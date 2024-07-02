@@ -7,23 +7,23 @@ import Todo from "@/components/Projects/Todo";
 
 export default function Projects() {
   return (
-    <div className="grid grid-cols-4 gap-4">
-      <div className="col-span-4">
+    <div className="flex flex-col lg:grid lg:grid-cols-4 gap-4">
+      <div className="lg:col-span-4">
         <LinkInBio />
       </div>
-      <div className="col-span-2">
+      <div className="lg:col-span-2">
         <Cocktail />
       </div>
-      <div className="col-span-2">
+      <div className="lg:col-span-2">
         <Matreshka />
       </div>
-      <div className="col-span-2">
+      <div className="lg:col-span-2">
         <TicTacToe />
       </div>
-      <div className="col-span-1">
+      <div className="lg:col-span-1">
         <Countries />
       </div>
-      <div className="col-span-1">
+      <div className="lg:col-span-1">
         <Todo />
       </div>
     </div>
