@@ -24,7 +24,7 @@ const WelcomeAnimation = () => {
       ]}
       wrapper="span"
       speed={25}
-      style={{ fontSize: "1.5em", display: "inline-block" }}
+      style={{ fontSize: "1.2em", display: "inline-block" }}
       repeat={Infinity}
     />
   );
