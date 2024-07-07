@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Countries() {
   return (
-    <div className="bg-gradient-to-r from-rose-50 to-rose-300 rounded-2xl py-10 px-5 h-full">
+    <div className="bg-gradient-to-r from-rose-50 to-rose-300 rounded-2xl p-5 md:p-24 h-full">
       <div className="flex flex-col items-center">
         <Image
           src={countries}
@@ -19,12 +19,14 @@ export default function Countries() {
         >
           Country
         </Link>
-        <div className="font-bold text-center">Search for countries</div>
-        <div className="text-gray-400 text-center">
+        <div className="text-3xl font-bold text-center">
+          Search for countries
+        </div>
+        <div className="text-2xl text-gray-400 text-center">
           You can search countries by its location and more.
         </div>
         <Link
-          className="font-bold mt-5 text-gray-400 hover:text-lime-200"
+          className="text-2xl font-bold mt-5 text-gray-400 hover:text-lime-200"
           href="https://github.com/dashok-myr/countries"
         >
           View Code

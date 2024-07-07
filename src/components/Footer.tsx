@@ -1,5 +1,8 @@
-import SocialMedias from "@/components/SocialMedias";
+import SocialMedia from "@/components/SocialMedia";
 import MessageForm from "@/components/MessageForm";
+import github from "@/icons/icons8-github-64.png";
+import linkedin from "@/icons/icons8-linkedin-64.png";
+import instagram from "@/icons/icons8-instagram-64.png";
 
 export default function Footer() {
   return (
@@ -24,7 +27,20 @@ export default function Footer() {
           <div className="sm:block h-0.5 w-full bg-zinc-400"></div>
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:justify-between pt-5">
             <div className="text-3xl">dariaUSAtyuk</div>
-            <SocialMedias />
+            <div className="flex w-full justify-between md:justify-end items-end">
+              <SocialMedia
+                link="https://github.com/dashok-myr"
+                image={github}
+              />
+              <SocialMedia
+                link="https://www.linkedin.com/in/dariausatyuk/"
+                image={linkedin}
+              />
+              <SocialMedia
+                link="https://www.instagram.com/daria_usatyuk/?igsh=MW1vZGplbTFjbzlibg%3D%3D&utm_source=qr"
+                image={instagram}
+              />
+            </div>
           </div>
         </div>
       </div>

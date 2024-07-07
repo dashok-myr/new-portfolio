@@ -20,11 +20,8 @@ export default function Projects() {
       <div className="lg:col-span-2">
         <TicTacToe />
       </div>
-      <div className="lg:col-span-1">
+      <div className="lg:col-span-2">
         <Countries />
-      </div>
-      <div className="lg:col-span-1">
-        <Todo />
       </div>
     </div>
   );

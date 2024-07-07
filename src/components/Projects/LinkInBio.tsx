@@ -5,13 +5,13 @@ import iphone from "@/icons/programmingLabels/iphone.png";
 
 export default function LinkInBio() {
   return (
-    <div className="flex items-center justify-center w-full bg-gradient-to-r from-red-200 to-lime-200 rounded-2xl">
-      <div className="flex flex-col flex-1 items-center ml-20">
+    <div className="flex flex-col md:flex md:flex-row items-center justify-center w-full bg-gradient-to-r from-red-200 to-lime-200 rounded-2xl">
+      <div className="flex flex-col flex-1 items-center pt-10 md:ml-20">
         <ButtonClickMe link="https://link-in-bio-lemon.vercel.app/" />
-        <div className="text-6xl font-bold mt-10 text-center">
+        <div className="text-xl md:text-6xl font-bold  my-3 md:mt-10 text-center">
           Check my project Link-in-Bio
         </div>
-        <div className="text-2xl text-gray-400">
+        <div className="text-2xl text-gray-400 text-center">
           All of your links in one place, designed your way.
         </div>
         <Link

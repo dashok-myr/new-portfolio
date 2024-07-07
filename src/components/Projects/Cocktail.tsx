@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Cocktail() {
   return (
-    <div className="bg-gradient-to-r from-amber-100 to-purple-300 rounded-2xl p-24">
+    <div className="bg-gradient-to-r from-amber-100 to-purple-300 rounded-2xl p-5 md:p-24 h-full">
       <div className="flex flex-col items-center">
         <Image
           src={cocktail}
@@ -19,7 +19,7 @@ export default function Cocktail() {
         >
           Party!
         </Link>
-        <div className="text-5xl font-bold text-center">
+        <div className="text-3xl md:text-5xl font-bold text-center">
           It is a cocktail time!
         </div>
         <div className="text-2xl text-gray-400 text-center">

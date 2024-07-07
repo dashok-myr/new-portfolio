@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Matreshka() {
   return (
-    <div className="bg-gradient-to-r from-teal-300 to-red-300 rounded-2xl p-24">
+    <div className="bg-gradient-to-r from-teal-300 to-red-300 rounded-2xl p-5 md:p-24 h-full">
       <div className="flex flex-col items-center">
         <Image
           src={matreshka}
@@ -19,7 +19,9 @@ export default function Matreshka() {
         >
           Let&apos;s shop
         </Link>
-        <div className="text-5xl font-bold text-center">E-commerce store</div>
+        <div className="text-3xl md:text-5xl font-bold text-center">
+          E-commerce store
+        </div>
         <div className="text-2xl text-gray-400 text-center">
           Shop, save to favorites and buy.
         </div>
