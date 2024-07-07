@@ -8,13 +8,15 @@ import instagram from "@/icons/icons8-instagram-64.png";
 
 export default function IntroductionMobile() {
   return (
-    <div className="flex flex-col items-center justify-center w-screen mt-10">
-      <Image src={me} alt="me" width={200} className="rounded-full" />
+    <div className="flex flex-col w-screen mt-10">
+      <div className="flex w-full justify-center">
+        <Image src={me} alt="me" width={200} className="rounded-full" />
+      </div>
       <div className="flex flex-col mt-7">
         <div className="text-gray-300 !text-5xl">Nice to meet you!</div>
         <div className="!text-4xl">I&apos;m Daria Usatyuk.</div>
       </div>
-      <div className="flex flex-col mt-6 gap-3">
+      <div className="flex flex-col mt-9 gap-3">
         <div className="font-bold text-xl">With 4+ years of experience</div>
         <div className="text-gray-300 text-lg">
           Based in the US, I am a front-end developer passionate about building
