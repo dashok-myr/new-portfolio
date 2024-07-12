@@ -1,4 +1,4 @@
-import me from "../icons/me.jpeg";
+import me from "../icons/me.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import SocialMedia from "@/components/SocialMedia";

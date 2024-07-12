@@ -2,7 +2,7 @@ import useMobile from "@/useMobile";
 import { TypeAnimation } from "react-type-animation";
 import SocialMedia from "@/components/SocialMedia";
 import Image from "next/image";
-import me from "@/icons/me.jpeg";
+import me from "@/icons/me.jpg";
 import Link from "next/link";
 import github from "@/icons/icons8-github-64.png";
 import linkedin from "@/icons/icons8-linkedin-64.png";
