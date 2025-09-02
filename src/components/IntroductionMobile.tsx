@@ -7,6 +7,7 @@ import linkedin from "@/icons/icons8-linkedin-64.png";
 import instagram from "@/icons/icons8-instagram-64.png";
 
 export default function IntroductionMobile() {
+  const yearsExperience = Math.max(0, new Date().getFullYear() - 2019);
   return (
     <div className="flex flex-col w-screen mt-10">
       <div className="flex w-full justify-center">
@@ -17,7 +18,7 @@ export default function IntroductionMobile() {
         <div className="!text-4xl">I&apos;m Daria Usatyuk.</div>
       </div>
       <div className="flex flex-col mt-9 gap-3">
-        <div className="font-bold text-xl">With 4+ years of experience</div>
+        <div className="font-bold text-xl">With {yearsExperience}+ years of experience</div>
         <div className="text-gray-300 text-lg">
           Based in the US, I am a front-end developer passionate about building
           accessible web apps that users love.

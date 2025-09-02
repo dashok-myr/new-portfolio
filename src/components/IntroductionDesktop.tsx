@@ -32,6 +32,7 @@ const WelcomeAnimation = () => {
 
 export default function IntroductionDesktop() {
   const isMobile = useMobile();
+  const yearsExperience = Math.max(0, new Date().getFullYear() - 2019);
 
   return (
     <div className="flex flex-col md:flex-row w-full items-center justify-between">
@@ -69,7 +70,7 @@ export default function IntroductionDesktop() {
             className="rounded-full"
           />
         </div>
-        <div className="font-bold text-3xl">With 4+ years of experience</div>
+        <div className="font-bold text-3xl">With {yearsExperience}+ years of experience</div>
         <div className="text-gray-300 text-lg">
           Based in the US, I am a front-end developer passionate about building
           accessible web apps that users love.
